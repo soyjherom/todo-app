@@ -15,5 +15,6 @@ export class LabsComponent {
     'Instalar Angular CLI',
     'Crear el proyecto',
     'Crear componentes'
-  ]
+  ];
+  dev_name = 'Jherom';
 }
