@@ -6,6 +6,14 @@
   </li>
 </ul>
 <hr />
-<h2>{{ 'Hola'.repeat(4) }}</h2>
+<h2>{{ 'String interpolation '.repeat(4) }}</h2>
 <p> La suma de 3 + 3 es {{ 3 + 3 }}</p>
-<p> Hola usuario, mi nombre es {{ dev_name }} y soy el desarrollador</p>
+<p> Hola usuario, mi nombre es {{ developer.name }} y soy el desarrollador</p>
+<hr/>
+<h2>Property binding</h2>
+<img [src]="developer.photo_url" alt="">
+<p></p>
+<input type="" name="" [value]="developer.name">
+<p></p>
+<input type="button" name="accept_btn" value="Accept"/>
+<input type="button" name="cancel_btn" value="Cancel" [disabled]="disabled"/>
